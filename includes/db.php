@@ -5,10 +5,10 @@ function get_db_connection() {
     if ($conn === null) {
         $serverName = "185.255.131.44";
         $connectionOptions = [
-            "Database" => "HGData",
-            "Uid" => "hgadmin",
-            "PWD" => '$F0t71l2m',
-            "CharacterSet" => "UTF-8"
+            "Database" => "",
+            "Uid" => "",
+            "PWD" => '',
+            "CharacterSet" => ""
         ];
 
         $conn = sqlsrv_connect($serverName, $connectionOptions);
